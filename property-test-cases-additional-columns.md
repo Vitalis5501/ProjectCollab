@@ -1,0 +1,11 @@
+# Additional Columns for Property Test Cases
+
+Test Case ID | Test Case Scenario | Test Cases | Pre-conditions | Test Steps | Post Condition | Actual Results | Status
+-------------|-------------------|------------|----------------|------------|----------------|----------------|--------
+TC_LOC_001 | Verify location list retrieval | 1. Verify location data retrieval\n2. Verify data format | 1. Locations exist in system\n2. User has access rights\n3. System is operational | 1. Set up authentication\n2. Send GET request\n3. Verify response format\n4. Validate location data | 1. Access logged\n2. No data modified | [To be filled] | [To be filled]
+TC_PROP_001 | Verify property list retrieval | 1. Verify property list access\n2. Verify pagination\n3. Verify filtering | 1. Properties exist\n2. User has access rights\n3. System operational | 1. Set up authentication\n2. Send GET request\n3. Verify response\n4. Check data format | 1. Access logged\n2. No data modified | [To be filled] | [To be filled]
+TC_PROP_002 | Verify new property creation | 1. Verify property creation\n2. Verify data validation\n3. Verify storage | 1. User has creation rights\n2. Valid property data\n3. System operational | 1. Prepare property data\n2. Send POST request\n3. Verify creation\n4. Validate response | 1. Property created\n2. Audit log updated | [To be filled] | [To be filled]
+TC_UNIT_001 | Verify unit tenant retrieval | 1. Verify tenant list access\n2. Verify data completeness | 1. Unit exists\n2. Tenants assigned\n3. User has access | 1. Set up auth token\n2. Send GET request\n3. Verify tenant list | 1. Access logged\n2. No data modified | [To be filled] | [To be filled]
+TC_DOC_001 | Verify resident document access | 1. Verify file retrieval\n2. Verify access control | 1. Document exists\n2. User has permissions\n3. File is accessible | 1. Set up auth token\n2. Send GET request\n3. Verify file content | 1. Access logged\n2. File unchanged | [To be filled] | [To be filled]
+
+[Continue same pattern for remaining test cases...]
